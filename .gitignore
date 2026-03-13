@@ -24,16 +24,15 @@ wheels/
 *.egg
 
 # Database
-*.db
-*.sqlite
-*.sqlite3
+data/*.db
+data/*.sqlite
+data/*.sqlite3
 
-# Photos
-photos/
-*.jpg
-*.jpeg
-*.png
-*.gif
+# Photos (keep directory, ignore files)
+photos/*.jpg
+photos/*.jpeg
+photos/*.png
+photos/*.gif
 
 # IDE
 .vscode/

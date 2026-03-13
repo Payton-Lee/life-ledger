@@ -15,8 +15,10 @@ import pytz
 # 设置时区为上海 (UTC+8)
 TZ = pytz.timezone('Asia/Shanghai')
 
-DB_PATH = Path.home() / "app/life-ledger/accounting.db"
-PHOTO_DIR = Path.home() / "app/life-ledger/photos"
+# 数据库和照片目录（相对于脚本位置）
+SCRIPT_DIR = Path(__file__).parent
+DB_PATH = SCRIPT_DIR / "data" / "accounting.db"
+PHOTO_DIR = SCRIPT_DIR / "photos"
 
 def init_db():
     """初始化数据库"""

@@ -45,13 +45,13 @@ python3 accounting.py food
 life-ledger/
 ├── accounting.py    # 主程序
 ├── list.py          # 记录列表
+├── run.sh           # 启动脚本
 ├── .gitignore       # Git 忽略文件
-└── README.md        # 说明文档
+├── README.md        # 说明文档
+├── data/            # 数据目录（不提交到 Git）
+│   └── accounting.db
+└── photos/          # 照片目录（不提交到 Git）
 ```
-
-**数据位置（运行时生成）：**
-- 数据库：`~/app/life-ledger/accounting.db`
-- 照片：`~/app/life-ledger/photos/`
 
 ## 命令参考
 
