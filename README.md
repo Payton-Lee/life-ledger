@@ -13,6 +13,19 @@
 
 ## 快速开始
 
+### 作为 OpenClaw Skill 安装（推荐）
+
+```bash
+curl -sSL https://raw.githubusercontent.com/Payton-Lee/life-ledger/main/skills/install.sh | bash
+```
+
+安装后在 OpenClaw 对话中直接使用：
+- `付款 25 午饭 店铺：面馆 ⭐⭐⭐⭐`
+- `生成月报`
+- `美食排行榜`
+
+### 独立使用
+
 ### 安装依赖
 
 ```bash
