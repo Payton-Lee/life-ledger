@@ -23,16 +23,19 @@ wheels/
 .installed.cfg
 *.egg
 
-# Database
+# Database (不跟踪数据库文件)
 data/*.db
 data/*.sqlite
 data/*.sqlite3
+!data/.gitkeep
 
-# Photos (keep directory, ignore files)
+# Photos (不跟踪照片文件)
 photos/*.jpg
 photos/*.jpeg
 photos/*.png
 photos/*.gif
+photos/*.webp
+!photos/.gitkeep
 
 # IDE
 .vscode/

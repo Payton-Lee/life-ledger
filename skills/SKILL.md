@@ -89,18 +89,7 @@ python3 ~/.openclaw/skills/life-ledger/accounting.py food
 - 数据库：`~/.openclaw/skills/life-ledger/data/accounting.db`
 - 照片：`~/.openclaw/skills/life-ledger/photos/`
 
-### 自定义数据路径
-
-默认数据存储在：
-- 数据库：`~/.openclaw/skills/life-ledger/data/accounting.db`
-- 照片：`~/.openclaw/skills/life-ledger/photos/`
-
-编辑 `accounting.py`，修改：
-
-```python
-DB_PATH = Path.home() / "your/custom/path/accounting.db"
-PHOTO_DIR = Path.home() / "your/custom/path/photos"
-```
+**注意：** 数据库和照片文件不会被 Git 跟踪，保护你的隐私安全。
 
 ## 自动分类
 

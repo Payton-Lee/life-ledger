@@ -23,6 +23,9 @@ else
     find . -maxdepth 1 -not -name 'skills' -not -name '.' -not -name '..' -exec rm -rf {} \;
     mv skills/* .
     rmdir skills
+    
+    # 创建数据目录
+    mkdir -p data photos
 fi
 
 # 安装依赖
